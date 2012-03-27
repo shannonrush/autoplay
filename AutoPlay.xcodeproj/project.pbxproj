@@ -21,6 +21,9 @@
 		C331282015222E47003772C2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C331280515222E47003772C2 /* CoreData.framework */; };
 		C331282815222E47003772C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C331282615222E47003772C2 /* InfoPlist.strings */; };
 		C331282B15222E47003772C2 /* AutoPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C331282A15222E47003772C2 /* AutoPlayTests.m */; };
+		C331283715222EE2003772C2 /* SetupController.m in Sources */ = {isa = PBXBuildFile; fileRef = C331283515222EE2003772C2 /* SetupController.m */; };
+		C331283815222EE2003772C2 /* SetupController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C331283615222EE2003772C2 /* SetupController.xib */; };
+		C331287E1522313C003772C2 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C331287D1522313C003772C2 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,10 @@
 		C331282715222E47003772C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C331282915222E47003772C2 /* AutoPlayTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoPlayTests.h; sourceTree = "<group>"; };
 		C331282A15222E47003772C2 /* AutoPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoPlayTests.m; sourceTree = "<group>"; };
+		C331283415222EE2003772C2 /* SetupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupController.h; sourceTree = "<group>"; };
+		C331283515222EE2003772C2 /* SetupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupController.m; sourceTree = "<group>"; };
+		C331283615222EE2003772C2 /* SetupController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetupController.xib; sourceTree = "<group>"; };
+		C331287D1522313C003772C2 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C331287E1522313C003772C2 /* MediaPlayer.framework in Frameworks */,
 				C331280015222E47003772C2 /* UIKit.framework in Frameworks */,
 				C331280215222E47003772C2 /* Foundation.framework in Frameworks */,
 				C331280415222E47003772C2 /* CoreGraphics.framework in Frameworks */,
@@ -102,6 +110,7 @@
 		C33127FE15222E47003772C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C331287D1522313C003772C2 /* MediaPlayer.framework */,
 				C33127FF15222E47003772C2 /* UIKit.framework */,
 				C331280115222E47003772C2 /* Foundation.framework */,
 				C331280315222E47003772C2 /* CoreGraphics.framework */,
@@ -114,6 +123,9 @@
 		C331280715222E47003772C2 /* AutoPlay */ = {
 			isa = PBXGroup;
 			children = (
+				C331283415222EE2003772C2 /* SetupController.h */,
+				C331283515222EE2003772C2 /* SetupController.m */,
+				C331283615222EE2003772C2 /* SetupController.xib */,
 				C331281015222E47003772C2 /* AppDelegate.h */,
 				C331281115222E47003772C2 /* AppDelegate.m */,
 				C331281315222E47003772C2 /* AutoPlay.xcdatamodeld */,
@@ -224,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C331280C15222E47003772C2 /* InfoPlist.strings in Resources */,
+				C331283815222EE2003772C2 /* SetupController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +274,7 @@
 				C331280E15222E47003772C2 /* main.m in Sources */,
 				C331281215222E47003772C2 /* AppDelegate.m in Sources */,
 				C331281515222E47003772C2 /* AutoPlay.xcdatamodeld in Sources */,
+				C331283715222EE2003772C2 /* SetupController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
