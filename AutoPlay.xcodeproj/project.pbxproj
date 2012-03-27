@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C331280015222E47003772C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33127FF15222E47003772C2 /* UIKit.framework */; };
+		C331280215222E47003772C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C331280115222E47003772C2 /* Foundation.framework */; };
+		C331280415222E47003772C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C331280315222E47003772C2 /* CoreGraphics.framework */; };
+		C331280615222E47003772C2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C331280515222E47003772C2 /* CoreData.framework */; };
+		C331280C15222E47003772C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C331280A15222E47003772C2 /* InfoPlist.strings */; };
+		C331280E15222E47003772C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C331280D15222E47003772C2 /* main.m */; };
+		C331281215222E47003772C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C331281115222E47003772C2 /* AppDelegate.m */; };
+		C331281515222E47003772C2 /* AutoPlay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C331281315222E47003772C2 /* AutoPlay.xcdatamodeld */; };
+		C331281D15222E47003772C2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C331281C15222E47003772C2 /* SenTestingKit.framework */; };
+		C331281E15222E47003772C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33127FF15222E47003772C2 /* UIKit.framework */; };
+		C331281F15222E47003772C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C331280115222E47003772C2 /* Foundation.framework */; };
+		C331282015222E47003772C2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C331280515222E47003772C2 /* CoreData.framework */; };
+		C331282815222E47003772C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C331282615222E47003772C2 /* InfoPlist.strings */; };
+		C331282B15222E47003772C2 /* AutoPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C331282A15222E47003772C2 /* AutoPlayTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C331282115222E47003772C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C33127F215222E47003772C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C33127FA15222E47003772C2;
+			remoteInfo = AutoPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C33127FB15222E47003772C2 /* AutoPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33127FF15222E47003772C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C331280115222E47003772C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C331280315222E47003772C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C331280515222E47003772C2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C331280915222E47003772C2 /* AutoPlay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoPlay-Info.plist"; sourceTree = "<group>"; };
+		C331280B15222E47003772C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C331280D15222E47003772C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C331280F15222E47003772C2 /* AutoPlay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoPlay-Prefix.pch"; sourceTree = "<group>"; };
+		C331281015222E47003772C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C331281115222E47003772C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C331281415222E47003772C2 /* AutoPlay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AutoPlay.xcdatamodel; sourceTree = "<group>"; };
+		C331281B15222E47003772C2 /* AutoPlayTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoPlayTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C331281C15222E47003772C2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C331282515222E47003772C2 /* AutoPlayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoPlayTests-Info.plist"; sourceTree = "<group>"; };
+		C331282715222E47003772C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C331282915222E47003772C2 /* AutoPlayTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoPlayTests.h; sourceTree = "<group>"; };
+		C331282A15222E47003772C2 /* AutoPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoPlayTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C33127F815222E47003772C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C331280015222E47003772C2 /* UIKit.framework in Frameworks */,
+				C331280215222E47003772C2 /* Foundation.framework in Frameworks */,
+				C331280415222E47003772C2 /* CoreGraphics.framework in Frameworks */,
+				C331280615222E47003772C2 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C331281715222E47003772C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C331281D15222E47003772C2 /* SenTestingKit.framework in Frameworks */,
+				C331281E15222E47003772C2 /* UIKit.framework in Frameworks */,
+				C331281F15222E47003772C2 /* Foundation.framework in Frameworks */,
+				C331282015222E47003772C2 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C33127F015222E47003772C2 = {
+			isa = PBXGroup;
+			children = (
+				C331280715222E47003772C2 /* AutoPlay */,
+				C331282315222E47003772C2 /* AutoPlayTests */,
+				C33127FE15222E47003772C2 /* Frameworks */,
+				C33127FC15222E47003772C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C33127FC15222E47003772C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C33127FB15222E47003772C2 /* AutoPlay.app */,
+				C331281B15222E47003772C2 /* AutoPlayTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C33127FE15222E47003772C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C33127FF15222E47003772C2 /* UIKit.framework */,
+				C331280115222E47003772C2 /* Foundation.framework */,
+				C331280315222E47003772C2 /* CoreGraphics.framework */,
+				C331280515222E47003772C2 /* CoreData.framework */,
+				C331281C15222E47003772C2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C331280715222E47003772C2 /* AutoPlay */ = {
+			isa = PBXGroup;
+			children = (
+				C331281015222E47003772C2 /* AppDelegate.h */,
+				C331281115222E47003772C2 /* AppDelegate.m */,
+				C331281315222E47003772C2 /* AutoPlay.xcdatamodeld */,
+				C331280815222E47003772C2 /* Supporting Files */,
+			);
+			path = AutoPlay;
+			sourceTree = "<group>";
+		};
+		C331280815222E47003772C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C331280915222E47003772C2 /* AutoPlay-Info.plist */,
+				C331280A15222E47003772C2 /* InfoPlist.strings */,
+				C331280D15222E47003772C2 /* main.m */,
+				C331280F15222E47003772C2 /* AutoPlay-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C331282315222E47003772C2 /* AutoPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				C331282915222E47003772C2 /* AutoPlayTests.h */,
+				C331282A15222E47003772C2 /* AutoPlayTests.m */,
+				C331282415222E47003772C2 /* Supporting Files */,
+			);
+			path = AutoPlayTests;
+			sourceTree = "<group>";
+		};
+		C331282415222E47003772C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C331282515222E47003772C2 /* AutoPlayTests-Info.plist */,
+				C331282615222E47003772C2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C33127FA15222E47003772C2 /* AutoPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C331282E15222E47003772C2 /* Build configuration list for PBXNativeTarget "AutoPlay" */;
+			buildPhases = (
+				C33127F715222E47003772C2 /* Sources */,
+				C33127F815222E47003772C2 /* Frameworks */,
+				C33127F915222E47003772C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoPlay;
+			productName = AutoPlay;
+			productReference = C33127FB15222E47003772C2 /* AutoPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C331281A15222E47003772C2 /* AutoPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C331283115222E47003772C2 /* Build configuration list for PBXNativeTarget "AutoPlayTests" */;
+			buildPhases = (
+				C331281615222E47003772C2 /* Sources */,
+				C331281715222E47003772C2 /* Frameworks */,
+				C331281815222E47003772C2 /* Resources */,
+				C331281915222E47003772C2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C331282215222E47003772C2 /* PBXTargetDependency */,
+			);
+			name = AutoPlayTests;
+			productName = AutoPlayTests;
+			productReference = C331281B15222E47003772C2 /* AutoPlayTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C33127F215222E47003772C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Rush Devo";
+			};
+			buildConfigurationList = C33127F515222E47003772C2 /* Build configuration list for PBXProject "AutoPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C33127F015222E47003772C2;
+			productRefGroup = C33127FC15222E47003772C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C33127FA15222E47003772C2 /* AutoPlay */,
+				C331281A15222E47003772C2 /* AutoPlayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C33127F915222E47003772C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C331280C15222E47003772C2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C331281815222E47003772C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C331282815222E47003772C2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C331281915222E47003772C2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C33127F715222E47003772C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C331280E15222E47003772C2 /* main.m in Sources */,
+				C331281215222E47003772C2 /* AppDelegate.m in Sources */,
+				C331281515222E47003772C2 /* AutoPlay.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C331281615222E47003772C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C331282B15222E47003772C2 /* AutoPlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C331282215222E47003772C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C33127FA15222E47003772C2 /* AutoPlay */;
+			targetProxy = C331282115222E47003772C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C331280A15222E47003772C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C331280B15222E47003772C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C331282615222E47003772C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C331282715222E47003772C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C331282C15222E47003772C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C331282D15222E47003772C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C331282F15222E47003772C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoPlay/AutoPlay-Prefix.pch";
+				INFOPLIST_FILE = "AutoPlay/AutoPlay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C331283015222E47003772C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoPlay/AutoPlay-Prefix.pch";
+				INFOPLIST_FILE = "AutoPlay/AutoPlay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C331283215222E47003772C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AutoPlay.app/AutoPlay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoPlay/AutoPlay-Prefix.pch";
+				INFOPLIST_FILE = "AutoPlayTests/AutoPlayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C331283315222E47003772C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AutoPlay.app/AutoPlay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoPlay/AutoPlay-Prefix.pch";
+				INFOPLIST_FILE = "AutoPlayTests/AutoPlayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C33127F515222E47003772C2 /* Build configuration list for PBXProject "AutoPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C331282C15222E47003772C2 /* Debug */,
+				C331282D15222E47003772C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C331282E15222E47003772C2 /* Build configuration list for PBXNativeTarget "AutoPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C331282F15222E47003772C2 /* Debug */,
+				C331283015222E47003772C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C331283115222E47003772C2 /* Build configuration list for PBXNativeTarget "AutoPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C331283215222E47003772C2 /* Debug */,
+				C331283315222E47003772C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C331281315222E47003772C2 /* AutoPlay.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C331281415222E47003772C2 /* AutoPlay.xcdatamodel */,
+			);
+			currentVersion = C331281415222E47003772C2 /* AutoPlay.xcdatamodel */;
+			path = AutoPlay.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C33127F215222E47003772C2 /* Project object */;
+}
