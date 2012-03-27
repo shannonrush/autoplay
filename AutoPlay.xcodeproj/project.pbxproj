@@ -123,12 +123,12 @@
 		C331280715222E47003772C2 /* AutoPlay */ = {
 			isa = PBXGroup;
 			children = (
-				C331283415222EE2003772C2 /* SetupController.h */,
-				C331283515222EE2003772C2 /* SetupController.m */,
-				C331283615222EE2003772C2 /* SetupController.xib */,
 				C331281015222E47003772C2 /* AppDelegate.h */,
 				C331281115222E47003772C2 /* AppDelegate.m */,
+				C331283415222EE2003772C2 /* SetupController.h */,
+				C331283515222EE2003772C2 /* SetupController.m */,
 				C331281315222E47003772C2 /* AutoPlay.xcdatamodeld */,
+				C33128841522399B003772C2 /* XIB */,
 				C331280815222E47003772C2 /* Supporting Files */,
 			);
 			path = AutoPlay;
@@ -162,6 +162,14 @@
 				C331282615222E47003772C2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C33128841522399B003772C2 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				C331283615222EE2003772C2 /* SetupController.xib */,
+			);
+			name = XIB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
