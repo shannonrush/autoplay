@@ -18,7 +18,7 @@
 #pragma mark MPMusicPlayerDelegate
 
 - (void) mediaPicker: (MPMediaPickerController *) mediaPicker didPickMediaItems: (MPMediaItemCollection *) collection {
-    
+    NSManagedObject *playlist = [self playlistWithName:@"Working Hard"];
     // save items to core data playlist
     
     [self dismissModalViewControllerAnimated: YES];

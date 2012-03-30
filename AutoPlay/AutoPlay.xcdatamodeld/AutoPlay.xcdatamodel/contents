@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1171" systemVersion="11D50b" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Playlists" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="songs" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Songs" inverseName="playlist" inverseEntity="Songs" syncable="YES"/>
+    </entity>
+    <entity name="Songs" syncable="YES">
+        <attribute name="persistantID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="playlist" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Playlists" inverseName="songs" inverseEntity="Playlists" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Playlists" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="Songs" positionX="-63" positionY="189" width="128" height="75"/>
+    </elements>
 </model>

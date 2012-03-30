@@ -24,6 +24,7 @@
 		C331283715222EE2003772C2 /* SetupController.m in Sources */ = {isa = PBXBuildFile; fileRef = C331283515222EE2003772C2 /* SetupController.m */; };
 		C331283815222EE2003772C2 /* SetupController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C331283615222EE2003772C2 /* SetupController.xib */; };
 		C331287E1522313C003772C2 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C331287D1522313C003772C2 /* MediaPlayer.framework */; };
+		C331288815266554003772C2 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = C331288615266554003772C2 /* BaseController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		C331283515222EE2003772C2 /* SetupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupController.m; sourceTree = "<group>"; };
 		C331283615222EE2003772C2 /* SetupController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetupController.xib; sourceTree = "<group>"; };
 		C331287D1522313C003772C2 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C331288515266553003772C2 /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		C331288615266554003772C2 /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 			children = (
 				C331281015222E47003772C2 /* AppDelegate.h */,
 				C331281115222E47003772C2 /* AppDelegate.m */,
+				C331288515266553003772C2 /* BaseController.h */,
+				C331288615266554003772C2 /* BaseController.m */,
 				C331283415222EE2003772C2 /* SetupController.h */,
 				C331283515222EE2003772C2 /* SetupController.m */,
 				C331281315222E47003772C2 /* AutoPlay.xcdatamodeld */,
@@ -283,6 +288,7 @@
 				C331281215222E47003772C2 /* AppDelegate.m in Sources */,
 				C331281515222E47003772C2 /* AutoPlay.xcdatamodeld in Sources */,
 				C331283715222EE2003772C2 /* SetupController.m in Sources */,
+				C331288815266554003772C2 /* BaseController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
